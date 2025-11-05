@@ -1,0 +1,11 @@
+@prefix enpkg: <https://enpkg.commons-lab.org/kg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+enpkg:VGF138_A01 a enpkg:LabQc ;
+    rdfs:label "QC VGF138_A01" ;
+    enpkg:has_LCMS enpkg:VGF138_A01_neg.mzXML .
+
+enpkg:VGF138_A01_neg.mzXML a enpkg:LCMSAnalysisNeg ;
+    enpkg:has_massive_doi <https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000087728> ;
+    enpkg:has_massive_license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
